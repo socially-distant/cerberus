@@ -10,7 +10,7 @@ dnf install -y tmux alacritty fastfetch fish
 dnf config-manager addrepo --from-repofile=https://pkgs.tailscale.com/stable/fedora/tailscale.repo
 dnf install -y tailscale
 
-dnf copr enable lilay/topgrade
+dnf copr enable -y lilay/topgrade
 dnf install -y topgrade
 
 systemctl enable podman.socket
