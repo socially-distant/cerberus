@@ -14,6 +14,7 @@ dnf install -y tmux \
         qemu \
         libvirt \
         virt-manager \
+        virt-viewer
 
 dnf config-manager addrepo --from-repofile=https://pkgs.tailscale.com/stable/fedora/tailscale.repo
 dnf install -y tailscale
