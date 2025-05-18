@@ -7,6 +7,7 @@ export MAJOR_VERSION_NUMBER
 
 dnf install -y tmux \
         alacritty \
+        neovim \
         fastfetch \
         fish \
         podman-docker \
@@ -14,7 +15,8 @@ dnf install -y tmux \
         qemu \
         libvirt \
         virt-manager \
-        virt-viewer
+        virt-viewer \
+        waydroid
 
 dnf config-manager addrepo --from-repofile=https://pkgs.tailscale.com/stable/fedora/tailscale.repo
 dnf install -y tailscale
